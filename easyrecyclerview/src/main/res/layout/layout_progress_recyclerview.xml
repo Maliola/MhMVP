@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.handmark.pulltorefresh.library.extras.recyclerview.PullToRefreshRecyclerView
+        android:id="@+id/prz_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrMode="pullFromStart"
+        />
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@android:id/list"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scrollbars="vertical"-->
+    <!--android:clickable="true"/>-->
+    <FrameLayout
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <FrameLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <FrameLayout
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+</FrameLayout>

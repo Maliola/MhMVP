@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <declare-styleable name="nav_style">
+
+        <!-- 公共属性 -->
+        <attr name="nav_title_background" format="reference|color"></attr>
+        <attr name="nav_title_text_size" format="dimension"></attr>
+        <attr name="nav_title_text_color" format="reference|color"></attr>
+        <attr name="nav_title_left_text_color" format="reference|color"></attr>
+        <attr name="nav_title_right_text_color" format="reference|color"></attr>
+        <attr name="nav_title_bottom_line_color" format="reference|color"></attr>
+
+
+    </declare-styleable>
+
+</resources>

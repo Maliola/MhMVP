@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jude.beam.expansion.view.NavigationBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="?attr/nav_title_background">
+
+    <!-- left button container -->
+
+    <FrameLayout
+        android:id="@+id/fl_navi_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:minHeight="30dp"
+        android:minWidth="20dip" />
+
+    <!-- middle view container -->
+
+    <FrameLayout
+        android:id="@+id/fl_navi_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_toLeftOf="@+id/fl_navi_right"
+        android:layout_toRightOf="@id/fl_navi_left"/>
+
+    <!-- right button container -->
+
+    <FrameLayout
+        android:id="@+id/fl_navi_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:minHeight="30dp"
+        android:minWidth="50dp"
+        android:padding="5dp"/>
+
+    <View
+        android:background="?attr/nav_title_bottom_line_color"
+        android:id="@+id/navi_bottom_line_v"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true" />
+</com.jude.beam.expansion.view.NavigationBar>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+        style="@style/main_bottom_tab_radio_button"
+        android:drawableTop="@drawable/tab_discovery_selector"
+        android:tag="radio_button_0"
+        android:text="1" />
+
+    <Button
+        style="@style/main_bottom_tab_radio_button"
+        android:drawableTop="@drawable/tab_category_selector"
+        android:tag="radio_button_1"
+        android:text="2" />
+    <Button
+        style="@style/main_bottom_tab_radio_button"
+        android:drawableTop="@drawable/tab_zhibo_selector"
+        android:tag="radio_button_2"
+        android:text="3" />
+    <Button
+        style="@style/main_bottom_tab_radio_button"
+        android:drawableTop="@drawable/tab_game_selector"
+        android:tag="radio_button_3"
+        android:text="4" />
+
+</LinearLayout>

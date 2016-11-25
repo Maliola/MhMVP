@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EasyRecyclerView</string>
+    <string name="nomore">没有更多了</string>
+</resources>
