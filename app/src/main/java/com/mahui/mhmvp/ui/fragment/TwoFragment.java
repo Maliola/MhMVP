@@ -14,6 +14,7 @@ import com.jude.beam.expansion.list.ListConfig;
 import com.jude.easyrecyclerview.adapter.BaseViewHolder;
 import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
 import com.mahui.mhmvp.R;
+import com.mahui.mhmvp.model.Person;
 import com.mahui.mhmvp.presenter.TwoFragmentPresenter;
 import com.mahui.mhmvp.ui.viewholder.TwoViewHolder;
 
@@ -21,7 +22,7 @@ import com.mahui.mhmvp.ui.viewholder.TwoViewHolder;
  * Created by Administrator on 2016/11/7.
  */
 @RequiresPresenter(TwoFragmentPresenter.class)
-public class TwoFragment extends BeamListFragment<TwoFragmentPresenter,String> {
+public class TwoFragment extends BeamListFragment<TwoFragmentPresenter,Person> {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

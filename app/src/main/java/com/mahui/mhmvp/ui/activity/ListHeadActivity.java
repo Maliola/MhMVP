@@ -14,6 +14,7 @@ import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
 import com.mahui.mhmvp.R;
 import com.mahui.mhmvp.presenter.ListHeadActivityPresenter;
 import com.mahui.mhmvp.ui.viewholder.OneViewHolder;
+import com.mahui.mhmvp.ui.viewholder.ThreeViewHolder;
 import com.mahui.mhmvp.ui.viewholder.TwoViewHolder;
 
 /**
@@ -23,7 +24,7 @@ import com.mahui.mhmvp.ui.viewholder.TwoViewHolder;
 public class ListHeadActivity extends NavigationListActivity<ListHeadActivityPresenter,String> {
     @Override
     public BaseViewHolder getViewHolder(ViewGroup parent, int viewType) {
-        return new TwoViewHolder(parent);
+        return new ThreeViewHolder(parent);
     }
     @Override
     protected ListConfig getConfig() {

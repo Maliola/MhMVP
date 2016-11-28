@@ -13,7 +13,7 @@ import com.mahui.mhmvp.R;
 public class ThreeViewHolder extends BaseViewHolder<String> {
     TextView title;
     public ThreeViewHolder(ViewGroup parent) {
-        super(parent, R.layout.twoviewholder_item);
+        super(parent, R.layout.threeviewholder_item);
         title= (TextView) itemView.findViewById(R.id.title);
     }
 

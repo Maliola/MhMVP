@@ -10,6 +10,7 @@ import com.jude.easyrecyclerview.adapter.BaseViewHolder;
 import com.mahui.mhmvp.R;
 import com.mahui.mhmvp.presenter.NewHeadActivityPresenter;
 import com.mahui.mhmvp.ui.viewholder.OneViewHolder;
+import com.mahui.mhmvp.ui.viewholder.ThreeViewHolder;
 import com.mahui.mhmvp.ui.viewholder.TwoViewHolder;
 
 /**
@@ -25,7 +26,7 @@ public class NewHeadActivity extends NavigationListActivity<NewHeadActivityPrese
 
     @Override
     public BaseViewHolder getViewHolder(ViewGroup parent, int viewType) {
-        return new TwoViewHolder(parent);
+        return new ThreeViewHolder(parent);
     }
 
     @Override
